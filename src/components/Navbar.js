@@ -14,7 +14,7 @@ const NavbarPage = (props) => {
                         <Nav className="ms-auto">
                             <Nav.Link as={Link} to="/" className="navLink">Home</Nav.Link>
                             <Nav.Link as={Link} to="/education" className="navLink">Education</Nav.Link>
-                            <Nav.Link as={Link} to="/projects" className="navLink">Contact</Nav.Link>
+                            <Nav.Link as={Link} to="/contact" className="navLink">Contact</Nav.Link>
                             <Nav.Link as={Link} to="/projects" className="navLink">Projects</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

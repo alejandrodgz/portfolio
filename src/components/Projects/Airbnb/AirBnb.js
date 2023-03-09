@@ -8,7 +8,7 @@ const Airbnb = (props) => {
         <div className="firstTitle">
             <h1>
                 Airbnb Holberton Clone
-            </h1>
+    </h1>
             
         </div>
         <div className="HBNB-container">

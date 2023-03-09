@@ -4,6 +4,7 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    transition: 1s;
 }
 
 .carouselEdu-container {
@@ -12,9 +13,11 @@
     border-radius: 2rem;
     overflow: hidden;
     box-shadow: 2px 2px 2px 2px rgb(22, 22, 22);
+    line-height: 1.1rem;
+    transition: 1s;
 }
 .carouselEdu-container img{
-    opacity: 0.6;
+    opacity: 0.4;
     transition: 1s;
 }
 
@@ -25,6 +28,7 @@
 
 .textOpa {
     text-shadow: 1px 1px rgb(32, 32, 32);
+    transition: 1s;
 }
 
 
@@ -35,6 +39,7 @@
     justify-content: space-evenly;
     align-content: center;
     max-width: 100%;
+    transition: 1s;
     
 }
 
@@ -43,6 +48,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 1s;
 }
 
 .link-img img{
@@ -56,5 +62,27 @@
     max-width: 60%;
     min-width: 18rem;
     margin: 2rem;
+    margin-bottom: 4rem;
+    transition: 1s;
 
 }
+
+
+@media screen and (min-width: 768px) {
+    .edu-description {
+      margin-left: 4rem;
+
+    }
+    .carouselEdu-container {
+        line-height: 1.5rem;
+    }
+  }
+
+.my-element {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .my-element.visible {
+    opacity: 1;
+  }

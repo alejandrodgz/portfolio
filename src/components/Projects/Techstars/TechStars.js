@@ -5,7 +5,7 @@ const Techstars = (props) => {
 
     return (
         <>
-        <div className="firstTitle" id="firstproject">
+        <div className="firstTitle">
             <h1>
                 Techstars Accelerator®
             </h1>

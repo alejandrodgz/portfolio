@@ -3,23 +3,18 @@
     src: url(../../fonts/DM_Sans/DMSans-Bold.ttf) format('truetype');
 }
 
-.firstTitle {
-    width: 50%;
-    margin: 3rem 5rem 5rem 5rem;
-}
-
-.firstTitle h1 {
-    font-family: 'DM_SansB';
-    font-size: 5rem;
-}
 
 
 .HBNB-container {
-    margin-left: 2rem;
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+}
+
+.HBNB-container img{
+    min-width: 16rem;
+    width: 35%;
 }
 
 .HBNB {

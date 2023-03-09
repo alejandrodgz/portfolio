@@ -58,7 +58,7 @@
                       style: {
                       fontSize: '0.8rem',
                       fontFamily:'DM_Sans'},
-                      offsetX: 160,
+                      offsetX: 150,
                       offsetY: 4,
                       },
                   
@@ -95,7 +95,7 @@
                 options={this.state.options}
                 series={this.state.series}
                 type="bar"
-                width="380"
+                width="350"
               />
             </div>
       );

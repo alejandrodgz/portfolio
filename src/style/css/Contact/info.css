@@ -1,0 +1,49 @@
+.contact-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.contact-section h1 {
+    display: inline-block; 
+    font-family: 'DM_SansB';
+}
+
+
+.contact-section img {
+    margin-top: 2rem;
+    max-width: 10rem;
+    margin-bottom: 2rem;  
+    transition: 1s;
+}
+
+.contact-section img:hover {
+    top: -10px;
+    transition: 1s;
+    max-width: 12rem !important;  
+}
+
+.social-icons {
+    width:75%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    transition: 1s;
+}
+
+.social-icons img{
+    position: relative;
+    transition: width 1s;
+}
+
+.social-icons img:hover{
+    top: -10px;
+    transition: 1s;
+    max-width: 12rem !important;
+}

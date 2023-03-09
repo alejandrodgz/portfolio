@@ -3,7 +3,8 @@ display: flex;
 flex-flow: row wrap;
 justify-content: center;
 align-items: center;
-margin: 3rem;
+margin: 2rem;
+transition: 1s;
 }
 .video-container {
 position: relative;
@@ -13,6 +14,7 @@ box-shadow: 1px 1px 3px 1px rgb(27, 27, 27);
 border-radius: 2rem;
 margin: 1rem;
 overflow: hidden;
+transition: 1s;
 }
 
 .video-container:hover {
@@ -30,6 +32,7 @@ left: 0;
 width: 100%;
 height: 100%;
 object-fit:cover;
+transition: 1s;
 }
 
 
@@ -40,6 +43,7 @@ padding: 20px;
 color: #fff;
 text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 transform: 1s;
+transition: 1s;
 }
 
 .buttonLink {
@@ -47,4 +51,5 @@ transform: 1s;
     color: white;
     border: 1px solid gray;
     border-radius: 1rem;
+    transition: 1s;
 }

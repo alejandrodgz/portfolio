@@ -14,6 +14,7 @@ import "./style/css/Home/CTA.css"
 import "./style/css/projects/Techstars.css"
 import "./style/css/Education/ContentEducation.css"
 import "./style/css/spinner.css"
+import "./style/css/Contact/info.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

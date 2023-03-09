@@ -11,25 +11,13 @@
     align-items: center;
     margin: 0;
     padding: 0;
+    transition: 1s;
 }
 
 .lenguages {
     max-width: 30%;
     font-family: 'DM_SansB';
     text-align: center;
-    min-width: 20rem;
+    min-width: 16rem;
+    transition: 1s;
 }
-
-@keyframes fade-in {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-
-  .my-element {
-    animation: fade-in 1s ease-in-out;
-    animation-play-state: paused;
-  }
