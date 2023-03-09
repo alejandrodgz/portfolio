@@ -1,0 +1,60 @@
+.carouselEdu {
+    max-width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselEdu-container {
+    width: 60%;
+    min-width: 20rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 2px rgb(22, 22, 22);
+}
+.carouselEdu-container img{
+    opacity: 0.6;
+    transition: 1s;
+}
+
+.carouselEdu-container img:hover{
+    opacity: 0.7;
+    transition: 1s;
+}
+
+.textOpa {
+    text-shadow: 1px 1px rgb(32, 32, 32);
+}
+
+
+.eduLogos {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    max-width: 100%;
+    
+}
+
+.link-img{
+    max-width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-img img{
+
+    max-width: 100%;
+    max-height: 40%;
+}
+
+.edu-description {
+
+    max-width: 60%;
+    min-width: 18rem;
+    margin: 2rem;
+
+}

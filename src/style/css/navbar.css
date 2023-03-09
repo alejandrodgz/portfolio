@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'DM_SansB';
+    src: url(../fonts/DM_Sans/DMSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'DM_Sans';
+    src: url(../fonts/DM_Sans/DMSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Golden_Hills';
+    src: url(../fonts/golden/GoldenHills.ttf) format('truetype');
+}
+
+.dropdown-toggle.nav-link {
+    width: 95%;
+    text-align: center;
+}
+
+.portfolio--title {
+    font-size: 2rem !important;
+    font-family: 'Golden_Hills';
+    display: inline-block;
+  position: relative;
+  color: white;
+}
+
+.portfolio--title::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.50s ease-out;
+}
+
+.portfolio--title:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+#basic-nav-dropdown {
+    color: white !important;
+    font-size: large;
+    font-family: 'DM_Sans';
+    border-radius: 2rem;
+    transition: 1s;
+    display: inline-block;
+    margin-left: 4%;
+}
+
+#basic-nav-dropdown:hover {
+    background-color: white;
+    color: black !important;
+    border-radius: 2rem;
+    font-family: 'DM_Sans';
+    transition: 1s;
+    display: inline-block;
+}
+
+#basic-nav-dropdown.active {
+    background-color: white;
+    color: black !important;
+    border-radius: 2rem;
+    padding: 50%;
+    font-family: 'DM_Sans';
+    transition: 1s;
+    display: inline-block;
+}
+
+.navLink {
+    background-color: none !important;
+    color: white !important;
+    font-size: large;
+    border-radius: 2rem;
+    font-family: 'DM_Sans';
+    transition: 1s;
+    display: inline-block;
+    margin-left: 4%;
+    text-align: center;
+}
+
+.navLink:hover {
+    background-color: white;
+    color: black !important;
+    border-radius: 2rem;
+    font-family: 'DM_Sans';
+    transition: 1s;
+    display: inline-block;
+}
+
+.navLink.active {
+    background-color: white;
+    color: black !important;
+    border-radius: 2rem;
+    font-family: 'DM_Sans';
+    transition: 1s;
+    display: inline-block;
+    text-align: center;
+}
+
+.tickler {
+    animation-name: tickler !important;
+    animation-duration: 8s !important;
+    animation-iteration-count: infinite !important;
+    background-color: white;
+        color: black;
+        border-radius: 2rem;
+        padding: 0.3rem;
+        display: inline-block
+}
+
+@keyframes tickler {
+    0%  {background-color: white;
+        color: black;
+        border-radius: 2rem;
+        padding: 0.3rem;
+        display: inline-block;}
+
+    50% {background-color: black;
+        color: white;
+        border-radius: 2rem;
+        padding: 0.3rem;
+        display: inline-block;
+        }
+  }
+
+  .dropdown-menu.show {
+    left:-6rem;
+    background-color: black;
+    color: white !important;
+    border: 1px solid rgb(81, 81, 81);
+  }
+
+  a.dropdown-item {
+    color: white;
+  }

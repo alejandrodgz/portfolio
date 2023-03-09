@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'DM_SansB';
+    src: url(../../fonts/DM_Sans/DMSans-Bold.ttf) format('truetype');
+}
+
+.firstTitle {
+    width: 50%;
+    margin: 3rem 5rem 5rem 5rem;
+}
+
+.firstTitle h1 {
+    font-family: 'DM_SansB';
+    font-size: 5rem;
+}
+
+
+.Tech-container {
+    margin-left: 2rem;
+    margin-top: -1rem;
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.Tech-1{
+    max-width: 55%;
+    margin-bottom: 1rem;
+    min-width: 25rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 2px rgb(31, 31, 31);
+}
+
+.Tech-2{
+    max-width: 15%;
+    margin-bottom: 1rem;
+    max-height: 256px;
+    min-width: 7rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 2px rgb(31, 31, 31);
+}
+
+.Tech-description {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.Tech-description p {
+    width: 80%;
+    text-align: center;
+    font-size: large;
+}
+
+
