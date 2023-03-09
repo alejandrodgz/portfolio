@@ -3,7 +3,7 @@
     src: url(../../fonts/DM_Sans/DMSans-Bold.ttf) format('truetype');
 }
 .firstTitle{
-    max-width: 80%;
+    max-width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;

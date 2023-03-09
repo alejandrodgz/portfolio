@@ -50,8 +50,8 @@ const CardHome = (props) => {
                     <div className="card-content">
                     <h2>Personal Details</h2>
                         <hr/>
-                        <p>Some of my personal and academic projects, use of 
-                            lenguages Python, javascript, C, C#
+                        <p>If you need to contact me, please feel free 
+                            to use my personal details in the contact section that you will find here.
                         </p>
                         <hr/>
                         <Button className="buttonLink" bg="dark" variant="dark" 

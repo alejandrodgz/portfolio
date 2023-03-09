@@ -1,5 +1,5 @@
 .firstText {
-    width: 60%;
+    max-width: 60%;
     min-width: 18rem;
     display: flex;
     margin-left: 2rem;
